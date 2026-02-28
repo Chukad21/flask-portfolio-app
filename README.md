@@ -1,41 +1,57 @@
 # Flask Portfolio Web Application
 
-This project is a multi-page web application built using Python and the Flask framework.
-
-It demonstrates core web development concepts including routing, template rendering, dynamic data, and CSS styling.
+## Overview
+This project is a multi-page web application built using Python and the Flask framework.  
+It demonstrates fundamental web development concepts including routing, template rendering, dynamic content, form handling, and static file management.
 
 ## Features
-
-- Dynamic home page with current date/time
-- About page
-- Resources page
-- Contact form (GET and POST)
+- Dynamic home page displaying the current date and time
+- Multi-page navigation (Home, About, Resources, Contact)
+- Contact form using GET and POST request handling
+- Organized Flask project structure (templates & static folders)
 - Custom CSS styling
 
 ## Technologies Used
-
 - Python
 - Flask
 - HTML5
 - CSS
-- Jinja2 Templates
+- Jinja2 Templating Engine
 
 ## Project Structure
 
-app.py – Main Flask application
+flask-portfolio-app/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── templates/
+│   ├── home.html
+│   ├── about.html
+│   ├── resources.html
+│   ├── contact.html
+│   └── thankyou.html
+│
+└── static/
+    └── style.css
 
-templates/ – HTML pages  
-static/ – CSS styling
+    ## Installation & Setup
 
-## How to Run the Application
+1. Clone the repository:
+   git clone <your-repository-url>
 
-1. Install Flask
+2. Navigate into the project folder:
+   cd flask-portfolio-app
 
+3. Install dependencies:
+   python -m pip install -r requirements.txt
 
-1. Clone the repository
-2. Install dependencies:
-   pip install -r requirements.txt
-3. Run the app:
+4. Run the application:
    python app.py
-4. Open browser at:
+
+5. Open your browser and visit:
    http://127.0.0.1:5000/
+
+## Purpose
+This project was developed to demonstrate foundational Flask web development skills and clean project structure for portfolio presentation.
