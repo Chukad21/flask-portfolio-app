@@ -6,12 +6,11 @@ It demonstrates core web development concepts including routing, template render
 
 ## Features
 
-- Multi-page Flask web application
-- Dynamic date and time displayed on the home page
-- Navigation between multiple pages
-- HTML templates using Flask
-- External CSS styling
-- Clean Python code following pylint standards
+- Dynamic home page with current date/time
+- About page
+- Resources page
+- Contact form (GET and POST)
+- Custom CSS styling
 
 ## Technologies Used
 
