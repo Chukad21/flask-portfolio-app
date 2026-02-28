@@ -36,7 +36,7 @@ flask-portfolio-app/
 └── static/
     └── style.css
 
-    ## Installation & Setup
+## Installation & Setup
 
 1. Clone the repository:
    git clone <your-repository-url>
